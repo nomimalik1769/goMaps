@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840664201FE1505C0052A8D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406641F1FE1505C0052A8D5 /* AppDelegate.swift */; };
+		840664221FE1505C0052A8D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840664211FE1505C0052A8D5 /* ViewController.swift */; };
+		840664251FE1505C0052A8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840664231FE1505C0052A8D5 /* Main.storyboard */; };
+		840664271FE1505C0052A8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840664261FE1505C0052A8D5 /* Assets.xcassets */; };
+		8406642A1FE1505C0052A8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840664281FE1505C0052A8D5 /* LaunchScreen.storyboard */; };
+		840664351FE1505D0052A8D5 /* GoMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840664341FE1505D0052A8D5 /* GoMapsTests.swift */; };
+		840664401FE1505D0052A8D5 /* GoMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406643F1FE1505D0052A8D5 /* GoMapsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840664311FE1505D0052A8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840664141FE1505C0052A8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8406641B1FE1505C0052A8D5;
+			remoteInfo = GoMaps;
+		};
+		8406643C1FE1505D0052A8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840664141FE1505C0052A8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8406641B1FE1505C0052A8D5;
+			remoteInfo = GoMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8406641C1FE1505C0052A8D5 /* GoMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406641F1FE1505C0052A8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840664211FE1505C0052A8D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		840664241FE1505C0052A8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840664261FE1505C0052A8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840664291FE1505C0052A8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8406642B1FE1505C0052A8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840664301FE1505D0052A8D5 /* GoMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840664341FE1505D0052A8D5 /* GoMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMapsTests.swift; sourceTree = "<group>"; };
+		840664361FE1505D0052A8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8406643B1FE1505D0052A8D5 /* GoMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406643F1FE1505D0052A8D5 /* GoMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMapsUITests.swift; sourceTree = "<group>"; };
+		840664411FE1505D0052A8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840664191FE1505C0052A8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406642D1FE1505D0052A8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840664381FE1505D0052A8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840664131FE1505C0052A8D5 = {
+			isa = PBXGroup;
+			children = (
+				8406641E1FE1505C0052A8D5 /* GoMaps */,
+				840664331FE1505D0052A8D5 /* GoMapsTests */,
+				8406643E1FE1505D0052A8D5 /* GoMapsUITests */,
+				8406641D1FE1505C0052A8D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8406641D1FE1505C0052A8D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8406641C1FE1505C0052A8D5 /* GoMaps.app */,
+				840664301FE1505D0052A8D5 /* GoMapsTests.xctest */,
+				8406643B1FE1505D0052A8D5 /* GoMapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8406641E1FE1505C0052A8D5 /* GoMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8406641F1FE1505C0052A8D5 /* AppDelegate.swift */,
+				840664211FE1505C0052A8D5 /* ViewController.swift */,
+				840664231FE1505C0052A8D5 /* Main.storyboard */,
+				840664261FE1505C0052A8D5 /* Assets.xcassets */,
+				840664281FE1505C0052A8D5 /* LaunchScreen.storyboard */,
+				8406642B1FE1505C0052A8D5 /* Info.plist */,
+			);
+			path = GoMaps;
+			sourceTree = "<group>";
+		};
+		840664331FE1505D0052A8D5 /* GoMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				840664341FE1505D0052A8D5 /* GoMapsTests.swift */,
+				840664361FE1505D0052A8D5 /* Info.plist */,
+			);
+			path = GoMapsTests;
+			sourceTree = "<group>";
+		};
+		8406643E1FE1505D0052A8D5 /* GoMapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8406643F1FE1505D0052A8D5 /* GoMapsUITests.swift */,
+				840664411FE1505D0052A8D5 /* Info.plist */,
+			);
+			path = GoMapsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8406641B1FE1505C0052A8D5 /* GoMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840664441FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMaps" */;
+			buildPhases = (
+				840664181FE1505C0052A8D5 /* Sources */,
+				840664191FE1505C0052A8D5 /* Frameworks */,
+				8406641A1FE1505C0052A8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoMaps;
+			productName = GoMaps;
+			productReference = 8406641C1FE1505C0052A8D5 /* GoMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8406642F1FE1505D0052A8D5 /* GoMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840664471FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMapsTests" */;
+			buildPhases = (
+				8406642C1FE1505D0052A8D5 /* Sources */,
+				8406642D1FE1505D0052A8D5 /* Frameworks */,
+				8406642E1FE1505D0052A8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840664321FE1505D0052A8D5 /* PBXTargetDependency */,
+			);
+			name = GoMapsTests;
+			productName = GoMapsTests;
+			productReference = 840664301FE1505D0052A8D5 /* GoMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8406643A1FE1505D0052A8D5 /* GoMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8406644A1FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMapsUITests" */;
+			buildPhases = (
+				840664371FE1505D0052A8D5 /* Sources */,
+				840664381FE1505D0052A8D5 /* Frameworks */,
+				840664391FE1505D0052A8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8406643D1FE1505D0052A8D5 /* PBXTargetDependency */,
+			);
+			name = GoMapsUITests;
+			productName = GoMapsUITests;
+			productReference = 8406643B1FE1505D0052A8D5 /* GoMapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840664141FE1505C0052A8D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = globiaTechnologies;
+				TargetAttributes = {
+					8406641B1FE1505C0052A8D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8406642F1FE1505D0052A8D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8406641B1FE1505C0052A8D5;
+					};
+					8406643A1FE1505D0052A8D5 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8406641B1FE1505C0052A8D5;
+					};
+				};
+			};
+			buildConfigurationList = 840664171FE1505C0052A8D5 /* Build configuration list for PBXProject "GoMaps" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840664131FE1505C0052A8D5;
+			productRefGroup = 8406641D1FE1505C0052A8D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8406641B1FE1505C0052A8D5 /* GoMaps */,
+				8406642F1FE1505D0052A8D5 /* GoMapsTests */,
+				8406643A1FE1505D0052A8D5 /* GoMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8406641A1FE1505C0052A8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8406642A1FE1505C0052A8D5 /* LaunchScreen.storyboard in Resources */,
+				840664271FE1505C0052A8D5 /* Assets.xcassets in Resources */,
+				840664251FE1505C0052A8D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406642E1FE1505D0052A8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840664391FE1505D0052A8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840664181FE1505C0052A8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840664221FE1505C0052A8D5 /* ViewController.swift in Sources */,
+				840664201FE1505C0052A8D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8406642C1FE1505D0052A8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840664351FE1505D0052A8D5 /* GoMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840664371FE1505D0052A8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840664401FE1505D0052A8D5 /* GoMapsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840664321FE1505D0052A8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8406641B1FE1505C0052A8D5 /* GoMaps */;
+			targetProxy = 840664311FE1505D0052A8D5 /* PBXContainerItemProxy */;
+		};
+		8406643D1FE1505D0052A8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8406641B1FE1505C0052A8D5 /* GoMaps */;
+			targetProxy = 8406643C1FE1505D0052A8D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840664231FE1505C0052A8D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840664241FE1505C0052A8D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840664281FE1505C0052A8D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840664291FE1505C0052A8D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840664421FE1505D0052A8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840664431FE1505D0052A8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840664451FE1505D0052A8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WE6F54AS7X;
+				INFOPLIST_FILE = GoMaps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840664461FE1505D0052A8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WE6F54AS7X;
+				INFOPLIST_FILE = GoMaps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840664481FE1505D0052A8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WE6F54AS7X;
+				INFOPLIST_FILE = GoMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoMaps.app/GoMaps";
+			};
+			name = Debug;
+		};
+		840664491FE1505D0052A8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WE6F54AS7X;
+				INFOPLIST_FILE = GoMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoMaps.app/GoMaps";
+			};
+			name = Release;
+		};
+		8406644B1FE1505D0052A8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WE6F54AS7X;
+				INFOPLIST_FILE = GoMapsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoMaps;
+			};
+			name = Debug;
+		};
+		8406644C1FE1505D0052A8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WE6F54AS7X;
+				INFOPLIST_FILE = GoMapsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoMaps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840664171FE1505C0052A8D5 /* Build configuration list for PBXProject "GoMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840664421FE1505D0052A8D5 /* Debug */,
+				840664431FE1505D0052A8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840664441FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840664451FE1505D0052A8D5 /* Debug */,
+				840664461FE1505D0052A8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840664471FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840664481FE1505D0052A8D5 /* Debug */,
+				840664491FE1505D0052A8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8406644A1FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8406644B1FE1505D0052A8D5 /* Debug */,
+				8406644C1FE1505D0052A8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840664141FE1505C0052A8D5 /* Project object */;
+}
