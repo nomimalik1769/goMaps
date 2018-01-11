@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840077CB1FE4DE7500A43BBC /* Pods_GoMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840077CC1FE4DE7500A43BBC /* Pods_GoMaps.framework */; };
+		840077CE1FE4DF2500A43BBC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840077CD1FE4DF2500A43BBC /* AVFoundation.framework */; };
+		840077D01FE4DF3A00A43BBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840077CF1FE4DF3A00A43BBC /* CoreLocation.framework */; };
+		840077D51FE4E0E200A43BBC /* ObjFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 840077D41FE4E0E200A43BBC /* ObjFile.m */; };
+		840077DF1FE4EE4D00A43BBC /* MenuAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840077DE1FE4EE4C00A43BBC /* MenuAPIController.swift */; };
+		84039A4C1FEB91D700CC75ED /* DirectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84039A4B1FEB91D700CC75ED /* DirectionController.swift */; };
 		840664201FE1505C0052A8D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406641F1FE1505C0052A8D5 /* AppDelegate.swift */; };
 		840664221FE1505C0052A8D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840664211FE1505C0052A8D5 /* ViewController.swift */; };
 		840664251FE1505C0052A8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840664231FE1505C0052A8D5 /* Main.storyboard */; };
@@ -14,6 +20,16 @@
 		8406642A1FE1505C0052A8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840664281FE1505C0052A8D5 /* LaunchScreen.storyboard */; };
 		840664351FE1505D0052A8D5 /* GoMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840664341FE1505D0052A8D5 /* GoMapsTests.swift */; };
 		840664401FE1505D0052A8D5 /* GoMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406643F1FE1505D0052A8D5 /* GoMapsUITests.swift */; };
+		8417A4CD1FF61EDB00380FAE /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417A4CC1FF61EDB00380FAE /* SideMenuCell.swift */; };
+		84A3B30420055F7000C89CA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A3B30320055F6B00C89CA4 /* GoogleService-Info.plist */; };
+		84D050511FEE5C2F00BE56BF /* PlaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D050501FEE5C2F00BE56BF /* PlaceViewCell.swift */; };
+		84D7C19E1FF969110095D2BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D7C19D1FF969110095D2BD /* MapKit.framework */; };
+		84D982E21FF203C80033F7C8 /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D982E11FF203C80033F7C8 /* PlaneViewController.swift */; };
+		84DEFA371FF129BD004EF029 /* GoMaps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DEFA351FF129BD004EF029 /* GoMaps.xcdatamodeld */; };
+		84DEFA781FF15076004EF029 /* FavViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEFA771FF15075004EF029 /* FavViewCell.swift */; };
+		84E4FB371FF9EFC6000249B8 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FB361FF9EFC6000249B8 /* VoiceViewController.swift */; };
+		84F54FF41FFB550A0037E556 /* RemoteNotificationDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F54FF31FFB550A0037E556 /* RemoteNotificationDeepLink.swift */; };
+		84F89FED1FE3879C00534D19 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F89FEC1FE3879C00534D19 /* FavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F43C273E408BB834D78F1A2 /* Pods-GoMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoMaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoMaps/Pods-GoMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		5FF25E1390F54AE0A1C5BFAB /* Pods-GoMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoMaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoMaps/Pods-GoMaps.release.xcconfig"; sourceTree = "<group>"; };
+		840077CC1FE4DE7500A43BBC /* Pods_GoMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_GoMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840077CD1FE4DF2500A43BBC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		840077CF1FE4DF3A00A43BBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		840077D31FE4E0E100A43BBC /* GoMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoMaps-Bridging-Header.h"; sourceTree = "<group>"; };
+		840077D41FE4E0E200A43BBC /* ObjFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjFile.m; sourceTree = "<group>"; };
+		840077DE1FE4EE4C00A43BBC /* MenuAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAPIController.swift; sourceTree = "<group>"; };
+		84039A4B1FEB91D700CC75ED /* DirectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionController.swift; sourceTree = "<group>"; };
 		8406641C1FE1505C0052A8D5 /* GoMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8406641F1FE1505C0052A8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840664211FE1505C0052A8D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,18 @@
 		8406643B1FE1505D0052A8D5 /* GoMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8406643F1FE1505D0052A8D5 /* GoMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMapsUITests.swift; sourceTree = "<group>"; };
 		840664411FE1505D0052A8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8417A4CC1FF61EDB00380FAE /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		84A3B30320055F6B00C89CA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84D050501FEE5C2F00BE56BF /* PlaceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewCell.swift; sourceTree = "<group>"; };
+		84D7C19D1FF969110095D2BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84D982E11FF203C80033F7C8 /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
+		84D982E41FF207FB0033F7C8 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		84DEFA361FF129BD004EF029 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84DEFA771FF15075004EF029 /* FavViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewCell.swift; sourceTree = "<group>"; };
+		84E4FB361FF9EFC6000249B8 /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		84EB95C51FECE10300B34774 /* Direction-df80bdc196d0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Direction-df80bdc196d0.json"; sourceTree = "<group>"; };
+		84F54FF31FFB550A0037E556 /* RemoteNotificationDeepLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNotificationDeepLink.swift; sourceTree = "<group>"; };
+		84F89FEC1FE3879C00534D19 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840077D01FE4DF3A00A43BBC /* CoreLocation.framework in Frameworks */,
+				840077CE1FE4DF2500A43BBC /* AVFoundation.framework in Frameworks */,
+				84D7C19E1FF969110095D2BD /* MapKit.framework in Frameworks */,
+				840077CB1FE4DE7500A43BBC /* Pods_GoMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07675B92FF3EA114E9054A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D7C19D1FF969110095D2BD /* MapKit.framework */,
+				840077CF1FE4DF3A00A43BBC /* CoreLocation.framework */,
+				840077CD1FE4DF2500A43BBC /* AVFoundation.framework */,
+				840077CC1FE4DE7500A43BBC /* Pods_GoMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B8CCD1313FD5EF5818BAA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F43C273E408BB834D78F1A2 /* Pods-GoMaps.debug.xcconfig */,
+				5FF25E1390F54AE0A1C5BFAB /* Pods-GoMaps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		840664131FE1505C0052A8D5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +142,8 @@
 				840664331FE1505D0052A8D5 /* GoMapsTests */,
 				8406643E1FE1505D0052A8D5 /* GoMapsUITests */,
 				8406641D1FE1505C0052A8D5 /* Products */,
+				23B8CCD1313FD5EF5818BAA4 /* Pods */,
+				07675B92FF3EA114E9054A4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +162,25 @@
 			children = (
 				8406641F1FE1505C0052A8D5 /* AppDelegate.swift */,
 				840664211FE1505C0052A8D5 /* ViewController.swift */,
+				84A3B30320055F6B00C89CA4 /* GoogleService-Info.plist */,
+				84F54FF31FFB550A0037E556 /* RemoteNotificationDeepLink.swift */,
+				8417A4CC1FF61EDB00380FAE /* SideMenuCell.swift */,
+				84E4FB361FF9EFC6000249B8 /* VoiceViewController.swift */,
 				840664231FE1505C0052A8D5 /* Main.storyboard */,
+				84DEFA771FF15075004EF029 /* FavViewCell.swift */,
+				84D050501FEE5C2F00BE56BF /* PlaceViewCell.swift */,
+				84EB95C51FECE10300B34774 /* Direction-df80bdc196d0.json */,
+				84039A4B1FEB91D700CC75ED /* DirectionController.swift */,
+				84DEFA351FF129BD004EF029 /* GoMaps.xcdatamodeld */,
+				84F89FEC1FE3879C00534D19 /* FavViewController.swift */,
+				84D982E11FF203C80033F7C8 /* PlaneViewController.swift */,
+				840077DE1FE4EE4C00A43BBC /* MenuAPIController.swift */,
+				840077D41FE4E0E200A43BBC /* ObjFile.m */,
 				840664261FE1505C0052A8D5 /* Assets.xcassets */,
+				84D982E41FF207FB0033F7C8 /* images.png */,
 				840664281FE1505C0052A8D5 /* LaunchScreen.storyboard */,
 				8406642B1FE1505C0052A8D5 /* Info.plist */,
+				840077D31FE4E0E100A43BBC /* GoMaps-Bridging-Header.h */,
 			);
 			path = GoMaps;
 			sourceTree = "<group>";
@@ -132,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840664441FE1505D0052A8D5 /* Build configuration list for PBXNativeTarget "GoMaps" */;
 			buildPhases = (
+				C0EAFE2DBF4A6D35E07472E5 /* [CP] Check Pods Manifest.lock */,
 				840664181FE1505C0052A8D5 /* Sources */,
 				840664191FE1505C0052A8D5 /* Frameworks */,
 				8406641A1FE1505C0052A8D5 /* Resources */,
+				B8D9010254082A9599AFFB10 /* [CP] Embed Pods Frameworks */,
+				EF19A66CF41A3E4B960F1F36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +274,16 @@
 				TargetAttributes = {
 					8406641B1FE1505C0052A8D5 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					8406642F1FE1505D0052A8D5 = {
 						CreatedOnToolsVersion = 9.0;
@@ -233,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8406642A1FE1505C0052A8D5 /* LaunchScreen.storyboard in Resources */,
+				84A3B30420055F7000C89CA4 /* GoogleService-Info.plist in Resources */,
 				840664271FE1505C0052A8D5 /* Assets.xcassets in Resources */,
 				840664251FE1505C0052A8D5 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +345,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8D9010254082A9599AFFB10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoMaps/Pods-GoMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EAFE2DBF4A6D35E07472E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF19A66CF41A3E4B960F1F36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoMaps/Pods-GoMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		840664181FE1505C0052A8D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F89FED1FE3879C00534D19 /* FavViewController.swift in Sources */,
+				84039A4C1FEB91D700CC75ED /* DirectionController.swift in Sources */,
+				84D050511FEE5C2F00BE56BF /* PlaceViewCell.swift in Sources */,
+				84DEFA781FF15076004EF029 /* FavViewCell.swift in Sources */,
+				8417A4CD1FF61EDB00380FAE /* SideMenuCell.swift in Sources */,
+				84E4FB371FF9EFC6000249B8 /* VoiceViewController.swift in Sources */,
+				84DEFA371FF129BD004EF029 /* GoMaps.xcdatamodeld in Sources */,
 				840664221FE1505C0052A8D5 /* ViewController.swift in Sources */,
 				840664201FE1505C0052A8D5 /* AppDelegate.swift in Sources */,
+				84F54FF41FFB550A0037E556 /* RemoteNotificationDeepLink.swift in Sources */,
+				840077DF1FE4EE4D00A43BBC /* MenuAPIController.swift in Sources */,
+				840077D51FE4E0E200A43BBC /* ObjFile.m in Sources */,
+				84D982E21FF203C80033F7C8 /* PlaneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,33 +574,48 @@
 		};
 		840664451FE1505D0052A8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F43C273E408BB834D78F1A2 /* Pods-GoMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WE6F54AS7X;
+				DEVELOPMENT_TEAM = 63CU5HW4Q3;
 				INFOPLIST_FILE = GoMaps/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoMaps/GoMaps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		840664461FE1505D0052A8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF25E1390F54AE0A1C5BFAB /* Pods-GoMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WE6F54AS7X;
+				DEVELOPMENT_TEAM = 63CU5HW4Q3;
 				INFOPLIST_FILE = GoMaps/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.globiaTechnologies.GoMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoMaps/GoMaps-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -560,6 +725,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DEFA351FF129BD004EF029 /* GoMaps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DEFA361FF129BD004EF029 /* Model.xcdatamodel */,
+			);
+			currentVersion = 84DEFA361FF129BD004EF029 /* Model.xcdatamodel */;
+			path = GoMaps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 840664141FE1505C0052A8D5 /* Project object */;
 }
